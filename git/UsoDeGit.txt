@@ -1,0 +1,51 @@
+Para la terminal:
+
+creacion de carpetas desde la terminal
+"echo null > app archivo.js"
+
+1--  crea un repositorio local en la carpeta
+"git init"
+
+2--configurar repositorio local
+ "git config user.name" ----> mi nombre DE USUARIO EN git
+
+ "git config user.email" ----> mi correo 
+
+ "git config --global user.name" "nombre de usuario git" 
+
+
+3--configurar repositorio remoto
+ 
+ "git remote add origin (+ url del repositorio)"
+  
+  "git remote -v" verifica si esta conectado al repositorio 
+
+4--agregar carpetas y archivos
+ "git add"    todo
+ "git add."  + el archivo
+
+5-- status
+ "git status"    nos permite ver que archivos no estan aderidos
+
+6-- git ignore
+"git rm -r --cached node_modules"
+
+   git commit -m 'Remove the now ignored directory node_modules'
+   git push origin master
+
+
+7--commit
+  "git commit -m "(comentario)" " 
+
+
+8--historial de cambios
+  "git log"  
+
+9--subir al repositorio remoto
+  "git push origin master"
+
+10-- clonar repositorios
+  "git clone (+ url)" 
+
+11-- descargar actualizaciones    
+"git pull origin master"
